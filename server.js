@@ -13,7 +13,7 @@ var async = require('async');
 var request = require('request');
 var xml2js = require('xml2js');
 
-var agenda = require('agenda')({ db: { address: 'localhost:27017/test' } });
+var agenda = require('agenda')({ db: { address: 'mongo:27017/test' } });
 var Sugar = require('sugar/date');
 var nodemailer = require('nodemailer');
 var _ = require('lodash');
